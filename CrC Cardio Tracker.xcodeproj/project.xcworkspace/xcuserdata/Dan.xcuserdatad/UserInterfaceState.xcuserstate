@@ -2427,7 +2427,7 @@
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Dan/Desktop/iPhoneProjects/CrC-Cardio-Tracker/.DS_Store</string>
-		<real>322184903.60403597</real>
+		<real>322184950.242827</real>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -4209,7 +4209,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>322184931.38326001</real>
+		<real>322184931.43498403</real>
 		<string>{39, 735}</string>
 		<dict>
 			<key>$class</key>
@@ -4605,39 +4605,39 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>409</integer>
+					<integer>408</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>411</integer>
+					<integer>410</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>413</integer>
+					<integer>412</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>415</integer>
+					<integer>414</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>417</integer>
+					<integer>416</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>419</integer>
+					<integer>418</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>421</integer>
+					<integer>420</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>422</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>423</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>424</integer>
 				</dict>
 			</array>
 		</dict>
@@ -4655,7 +4655,24 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>408</integer>
+				<integer>225</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>118</integer>
+			</dict>
+			<key>NS.base</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>NS.relative</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>409</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Dan/Desktop/iPhoneProjects/CrC-Cardio-Tracker/CrC%20Cardio%20Tracker.xcodeproj/project.xcworkspace/xcuserdata/Dan.xcuserdatad/UserInterfaceState.xcuserstate</string>
@@ -4673,25 +4690,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>410</integer>
-			</dict>
-		</dict>
-		<string>file://localhost/Users/Dan/Desktop/iPhoneProjects/CrC-Cardio-Tracker/.DS_Store</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>118</integer>
-			</dict>
-			<key>NS.base</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>0</integer>
-			</dict>
-			<key>NS.relative</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>412</integer>
+				<integer>411</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Dan/Desktop/iPhoneProjects/CrC-Cardio-Tracker/CrC%20Cardio%20Tracker/WelcomeViewController.xib</string>
@@ -4709,7 +4708,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>414</integer>
+				<integer>413</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Dan/Desktop/iPhoneProjects/CrC-Cardio-Tracker/CrC%20Cardio%20Tracker/CrC_Cardio_TrackerAppDelegate.m</string>
@@ -4727,7 +4726,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>416</integer>
+				<integer>415</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Dan/Desktop/iPhoneProjects/CrC-Cardio-Tracker/CrC%20Cardio%20Tracker/WelcomeViewController.h</string>
@@ -4745,7 +4744,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>418</integer>
+				<integer>417</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Dan/Desktop/iPhoneProjects/CrC-Cardio-Tracker/CrC%20Cardio%20Tracker/WelcomeViewController.m</string>
@@ -4763,7 +4762,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>420</integer>
+				<integer>419</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Dan/Desktop/iPhoneProjects/CrC-Cardio-Tracker/CrC%20Cardio%20Tracker/CrC_Cardio_TrackerAppDelegate.h</string>
@@ -4781,7 +4780,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>422</integer>
+				<integer>421</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Dan/Desktop/iPhoneProjects/CrC-Cardio-Tracker/CrC%20Cardio%20Tracker.xcodeproj/project.pbxproj</string>
@@ -4816,7 +4815,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>425</integer>
+				<integer>424</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/Dan/Desktop/iPhoneProjects/CrC-Cardio-Tracker/CrC%20Cardio%20Tracker/en.lproj/MainWindow.xib</string>
