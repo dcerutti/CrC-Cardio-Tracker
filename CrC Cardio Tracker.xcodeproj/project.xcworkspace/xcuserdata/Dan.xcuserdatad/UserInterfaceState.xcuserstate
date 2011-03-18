@@ -105,7 +105,7 @@
 		<string>IDEWindowToolbarIsVisible</string>
 		<string>IDEWorkspaceWindowControllerUniqueIdentifier</string>
 		<string>IDEActiveWorkspaceTabController</string>
-		<string>{{0, 70}, {1280, 708}}</string>
+		<string>{{52, 53}, {1280, 708}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
