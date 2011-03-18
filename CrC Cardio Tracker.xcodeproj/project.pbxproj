@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378D6BAA1334205800845FCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BA91334205800845FCE /* UIKit.framework */; };
+		378D6BAC1334205800845FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BAB1334205800845FCE /* Foundation.framework */; };
+		378D6BAE1334205800845FCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BAD1334205800845FCE /* CoreGraphics.framework */; };
+		378D6BB41334205800845FCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 378D6BB21334205800845FCE /* InfoPlist.strings */; };
+		378D6BB71334205800845FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D6BB61334205800845FCE /* main.m */; };
+		378D6BBA1334205800845FCE /* CrC_Cardio_TrackerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D6BB91334205800845FCE /* CrC_Cardio_TrackerAppDelegate.m */; };
+		378D6BBD1334205900845FCE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 378D6BBB1334205900845FCE /* MainWindow.xib */; };
+		378D6BC41334205900845FCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BA91334205800845FCE /* UIKit.framework */; };
+		378D6BC51334205900845FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BAB1334205800845FCE /* Foundation.framework */; };
+		378D6BC61334205900845FCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BAD1334205800845FCE /* CoreGraphics.framework */; };
+		378D6BCE1334205900845FCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 378D6BCC1334205900845FCE /* InfoPlist.strings */; };
+		378D6BD11334205900845FCE /* CrC_Cardio_TrackerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 378D6BD01334205900845FCE /* CrC_Cardio_TrackerTests.h */; };
+		378D6BD31334205900845FCE /* CrC_Cardio_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D6BD21334205900845FCE /* CrC_Cardio_TrackerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		378D6BC71334205900845FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378D6B9C1334205800845FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378D6BA41334205800845FCE;
+			remoteInfo = "CrC Cardio Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		378D6BA51334205800845FCE /* CrC Cardio Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrC Cardio Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		378D6BA91334205800845FCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		378D6BAB1334205800845FCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		378D6BAD1334205800845FCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		378D6BB11334205800845FCE /* CrC Cardio Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrC Cardio Tracker-Info.plist"; sourceTree = "<group>"; };
+		378D6BB31334205800845FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		378D6BB51334205800845FCE /* CrC Cardio Tracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrC Cardio Tracker-Prefix.pch"; sourceTree = "<group>"; };
+		378D6BB61334205800845FCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		378D6BB81334205800845FCE /* CrC_Cardio_TrackerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrC_Cardio_TrackerAppDelegate.h; sourceTree = "<group>"; };
+		378D6BB91334205800845FCE /* CrC_Cardio_TrackerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrC_Cardio_TrackerAppDelegate.m; sourceTree = "<group>"; };
+		378D6BBC1334205900845FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		378D6BC31334205900845FCE /* CrC Cardio TrackerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrC Cardio TrackerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		378D6BCB1334205900845FCE /* CrC Cardio TrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrC Cardio TrackerTests-Info.plist"; sourceTree = "<group>"; };
+		378D6BCD1334205900845FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		378D6BCF1334205900845FCE /* CrC Cardio TrackerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrC Cardio TrackerTests-Prefix.pch"; sourceTree = "<group>"; };
+		378D6BD01334205900845FCE /* CrC_Cardio_TrackerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrC_Cardio_TrackerTests.h; sourceTree = "<group>"; };
+		378D6BD21334205900845FCE /* CrC_Cardio_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrC_Cardio_TrackerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378D6BA21334205800845FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D6BAA1334205800845FCE /* UIKit.framework in Frameworks */,
+				378D6BAC1334205800845FCE /* Foundation.framework in Frameworks */,
+				378D6BAE1334205800845FCE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D6BBF1334205900845FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D6BC41334205900845FCE /* UIKit.framework in Frameworks */,
+				378D6BC51334205900845FCE /* Foundation.framework in Frameworks */,
+				378D6BC61334205900845FCE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378D6B9A1334205800845FCE = {
+			isa = PBXGroup;
+			children = (
+				378D6BAF1334205800845FCE /* CrC Cardio Tracker */,
+				378D6BC91334205900845FCE /* CrC Cardio TrackerTests */,
+				378D6BA81334205800845FCE /* Frameworks */,
+				378D6BA61334205800845FCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378D6BA61334205800845FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378D6BA51334205800845FCE /* CrC Cardio Tracker.app */,
+				378D6BC31334205900845FCE /* CrC Cardio TrackerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378D6BA81334205800845FCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				378D6BA91334205800845FCE /* UIKit.framework */,
+				378D6BAB1334205800845FCE /* Foundation.framework */,
+				378D6BAD1334205800845FCE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		378D6BAF1334205800845FCE /* CrC Cardio Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				378D6BB81334205800845FCE /* CrC_Cardio_TrackerAppDelegate.h */,
+				378D6BB91334205800845FCE /* CrC_Cardio_TrackerAppDelegate.m */,
+				378D6BBB1334205900845FCE /* MainWindow.xib */,
+				378D6BB01334205800845FCE /* Supporting Files */,
+			);
+			path = "CrC Cardio Tracker";
+			sourceTree = "<group>";
+		};
+		378D6BB01334205800845FCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				378D6BB11334205800845FCE /* CrC Cardio Tracker-Info.plist */,
+				378D6BB21334205800845FCE /* InfoPlist.strings */,
+				378D6BB51334205800845FCE /* CrC Cardio Tracker-Prefix.pch */,
+				378D6BB61334205800845FCE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		378D6BC91334205900845FCE /* CrC Cardio TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				378D6BD01334205900845FCE /* CrC_Cardio_TrackerTests.h */,
+				378D6BD21334205900845FCE /* CrC_Cardio_TrackerTests.m */,
+				378D6BCA1334205900845FCE /* Supporting Files */,
+			);
+			path = "CrC Cardio TrackerTests";
+			sourceTree = "<group>";
+		};
+		378D6BCA1334205900845FCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				378D6BCB1334205900845FCE /* CrC Cardio TrackerTests-Info.plist */,
+				378D6BCC1334205900845FCE /* InfoPlist.strings */,
+				378D6BCF1334205900845FCE /* CrC Cardio TrackerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378D6BA41334205800845FCE /* CrC Cardio Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378D6BD61334205900845FCE /* Build configuration list for PBXNativeTarget "CrC Cardio Tracker" */;
+			buildPhases = (
+				378D6BA11334205800845FCE /* Sources */,
+				378D6BA21334205800845FCE /* Frameworks */,
+				378D6BA31334205800845FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrC Cardio Tracker";
+			productName = "CrC Cardio Tracker";
+			productReference = 378D6BA51334205800845FCE /* CrC Cardio Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378D6BC21334205900845FCE /* CrC Cardio TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378D6BD91334205900845FCE /* Build configuration list for PBXNativeTarget "CrC Cardio TrackerTests" */;
+			buildPhases = (
+				378D6BBE1334205900845FCE /* Sources */,
+				378D6BBF1334205900845FCE /* Frameworks */,
+				378D6BC01334205900845FCE /* Resources */,
+				378D6BC11334205900845FCE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378D6BC81334205900845FCE /* PBXTargetDependency */,
+			);
+			name = "CrC Cardio TrackerTests";
+			productName = "CrC Cardio TrackerTests";
+			productReference = 378D6BC31334205900845FCE /* CrC Cardio TrackerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378D6B9C1334205800845FCE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 378D6B9F1334205800845FCE /* Build configuration list for PBXProject "CrC Cardio Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 378D6B9A1334205800845FCE;
+			productRefGroup = 378D6BA61334205800845FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378D6BA41334205800845FCE /* CrC Cardio Tracker */,
+				378D6BC21334205900845FCE /* CrC Cardio TrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378D6BA31334205800845FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D6BB41334205800845FCE /* InfoPlist.strings in Resources */,
+				378D6BBD1334205900845FCE /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D6BC01334205900845FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D6BCE1334205900845FCE /* InfoPlist.strings in Resources */,
+				378D6BD11334205900845FCE /* CrC_Cardio_TrackerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		378D6BC11334205900845FCE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378D6BA11334205800845FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D6BB71334205800845FCE /* main.m in Sources */,
+				378D6BBA1334205800845FCE /* CrC_Cardio_TrackerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D6BBE1334205900845FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D6BD31334205900845FCE /* CrC_Cardio_TrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		378D6BC81334205900845FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378D6BA41334205800845FCE /* CrC Cardio Tracker */;
+			targetProxy = 378D6BC71334205900845FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		378D6BB21334205800845FCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378D6BB31334205800845FCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		378D6BBB1334205900845FCE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378D6BBC1334205900845FCE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		378D6BCC1334205900845FCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378D6BCD1334205900845FCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378D6BD41334205900845FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		378D6BD51334205900845FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		378D6BD71334205900845FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrC Cardio Tracker/CrC Cardio Tracker-Prefix.pch";
+				INFOPLIST_FILE = "CrC Cardio Tracker/CrC Cardio Tracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		378D6BD81334205900845FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrC Cardio Tracker/CrC Cardio Tracker-Prefix.pch";
+				INFOPLIST_FILE = "CrC Cardio Tracker/CrC Cardio Tracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		378D6BDA1334205900845FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrC Cardio Tracker.app/CrC Cardio Tracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrC Cardio TrackerTests/CrC Cardio TrackerTests-Prefix.pch";
+				INFOPLIST_FILE = "CrC Cardio TrackerTests/CrC Cardio TrackerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		378D6BDB1334205900845FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrC Cardio Tracker.app/CrC Cardio Tracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrC Cardio TrackerTests/CrC Cardio TrackerTests-Prefix.pch";
+				INFOPLIST_FILE = "CrC Cardio TrackerTests/CrC Cardio TrackerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378D6B9F1334205800845FCE /* Build configuration list for PBXProject "CrC Cardio Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D6BD41334205900845FCE /* Debug */,
+				378D6BD51334205900845FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378D6BD61334205900845FCE /* Build configuration list for PBXNativeTarget "CrC Cardio Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D6BD71334205900845FCE /* Debug */,
+				378D6BD81334205900845FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		378D6BD91334205900845FCE /* Build configuration list for PBXNativeTarget "CrC Cardio TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D6BDA1334205900845FCE /* Debug */,
+				378D6BDB1334205900845FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378D6B9C1334205800845FCE /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CrC Cardio TrackerTests' target in the 'CrC Cardio TrackerTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
