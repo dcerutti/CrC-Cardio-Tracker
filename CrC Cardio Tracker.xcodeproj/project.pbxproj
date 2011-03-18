@@ -76,6 +76,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3720BD52133421860060F4D8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3720BD54133421A50060F4D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				378D6BB81334205800845FCE /* CrC_Cardio_TrackerAppDelegate.h */,
+				378D6BB91334205800845FCE /* CrC_Cardio_TrackerAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3720BD55133421C00060F4D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				378D6BBB1334205900845FCE /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		378D6B9A1334205800845FCE = {
 			isa = PBXGroup;
 			children = (
@@ -108,9 +132,9 @@
 		378D6BAF1334205800845FCE /* CrC Cardio Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				378D6BB81334205800845FCE /* CrC_Cardio_TrackerAppDelegate.h */,
-				378D6BB91334205800845FCE /* CrC_Cardio_TrackerAppDelegate.m */,
-				378D6BBB1334205900845FCE /* MainWindow.xib */,
+				3720BD54133421A50060F4D8 /* Classes */,
+				3720BD55133421C00060F4D8 /* Resources */,
+				3720BD52133421860060F4D8 /* Images */,
 				378D6BB01334205800845FCE /* Supporting Files */,
 			);
 			path = "CrC Cardio Tracker";
@@ -425,6 +449,7 @@
 				378D6BD81334205900845FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		378D6BD91334205900845FCE /* Build configuration list for PBXNativeTarget "CrC Cardio TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +458,7 @@
 				378D6BDB1334205900845FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
