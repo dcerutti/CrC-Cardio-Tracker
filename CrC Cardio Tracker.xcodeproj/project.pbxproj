@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3720BD59133422A90060F4D8 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3720BD57133422A90060F4D8 /* WelcomeViewController.m */; };
+		3720BD5A133422A90060F4D8 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3720BD58133422A90060F4D8 /* WelcomeViewController.xib */; };
 		378D6BAA1334205800845FCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BA91334205800845FCE /* UIKit.framework */; };
 		378D6BAC1334205800845FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BAB1334205800845FCE /* Foundation.framework */; };
 		378D6BAE1334205800845FCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BAD1334205800845FCE /* CoreGraphics.framework */; };
@@ -33,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3720BD56133422A90060F4D8 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		3720BD57133422A90060F4D8 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		3720BD58133422A90060F4D8 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		378D6BA51334205800845FCE /* CrC Cardio Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrC Cardio Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		378D6BA91334205800845FCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		378D6BAB1334205800845FCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +91,8 @@
 		3720BD54133421A50060F4D8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3720BD56133422A90060F4D8 /* WelcomeViewController.h */,
+				3720BD57133422A90060F4D8 /* WelcomeViewController.m */,
 				378D6BB81334205800845FCE /* CrC_Cardio_TrackerAppDelegate.h */,
 				378D6BB91334205800845FCE /* CrC_Cardio_TrackerAppDelegate.m */,
 			);
@@ -95,6 +102,7 @@
 		3720BD55133421C00060F4D8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3720BD58133422A90060F4D8 /* WelcomeViewController.xib */,
 				378D6BBB1334205900845FCE /* MainWindow.xib */,
 			);
 			name = Resources;
@@ -240,6 +248,7 @@
 			files = (
 				378D6BB41334205800845FCE /* InfoPlist.strings in Resources */,
 				378D6BBD1334205900845FCE /* MainWindow.xib in Resources */,
+				3720BD5A133422A90060F4D8 /* WelcomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +286,7 @@
 			files = (
 				378D6BB71334205800845FCE /* main.m in Sources */,
 				378D6BBA1334205800845FCE /* CrC_Cardio_TrackerAppDelegate.m in Sources */,
+				3720BD59133422A90060F4D8 /* WelcomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

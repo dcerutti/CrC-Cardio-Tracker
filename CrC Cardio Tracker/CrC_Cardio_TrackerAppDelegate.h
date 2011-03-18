@@ -8,10 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class WelcomeViewController;
+
 @interface CrC_Cardio_TrackerAppDelegate : NSObject <UIApplicationDelegate> {
+    
+    
 
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) WelcomeViewController *welcomeView;
 
 @end

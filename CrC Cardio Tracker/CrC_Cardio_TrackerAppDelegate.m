@@ -7,16 +7,24 @@
 //
 
 #import "CrC_Cardio_TrackerAppDelegate.h"
+#import "WelcomeViewController.h"
 
 @implementation CrC_Cardio_TrackerAppDelegate
 
 
-@synthesize window=_window;
+@synthesize window=_window,welcomeView;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
+    
+    //WelcomeView Link
+    WelcomeViewController *aView = [[WelcomeViewController alloc] initWithNibName:@"WelcomeViewController" bundle:nil];
+    self.welcomeView = aView;
+    [_window addSubview:welcomeView.view];
+    [aView release];
+    
     return YES;
 }
 
@@ -62,6 +70,7 @@
 - (void)dealloc
 {
     [_window release];
+    [welcomeView release];
     [super dealloc];
 }
 
