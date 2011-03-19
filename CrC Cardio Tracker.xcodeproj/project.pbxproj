@@ -25,6 +25,8 @@
 		378D6BD11334205900845FCE /* CrC_Cardio_TrackerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 378D6BD01334205900845FCE /* CrC_Cardio_TrackerTests.h */; };
 		378D6BD31334205900845FCE /* CrC_Cardio_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D6BD21334205900845FCE /* CrC_Cardio_TrackerTests.m */; };
 		37BF3B98133500560066DCFD /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BF3B97133500560066DCFD /* AppIcon.png */; };
+		37BF3BA413350A140066DCFD /* UsrSelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF3BA213350A140066DCFD /* UsrSelViewController.m */; };
+		37BF3BA513350A140066DCFD /* UsrSelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37BF3BA313350A140066DCFD /* UsrSelViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,9 @@
 		378D6BD01334205900845FCE /* CrC_Cardio_TrackerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrC_Cardio_TrackerTests.h; sourceTree = "<group>"; };
 		378D6BD21334205900845FCE /* CrC_Cardio_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrC_Cardio_TrackerTests.m; sourceTree = "<group>"; };
 		37BF3B97133500560066DCFD /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		37BF3BA113350A140066DCFD /* UsrSelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsrSelViewController.h; sourceTree = "<group>"; };
+		37BF3BA213350A140066DCFD /* UsrSelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsrSelViewController.m; sourceTree = "<group>"; };
+		37BF3BA313350A140066DCFD /* UsrSelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsrSelViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +104,8 @@
 		3720BD54133421A50060F4D8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				37BF3BA113350A140066DCFD /* UsrSelViewController.h */,
+				37BF3BA213350A140066DCFD /* UsrSelViewController.m */,
 				3720BD56133422A90060F4D8 /* WelcomeViewController.h */,
 				3720BD57133422A90060F4D8 /* WelcomeViewController.m */,
 				378D6BB81334205800845FCE /* CrC_Cardio_TrackerAppDelegate.h */,
@@ -110,6 +117,7 @@
 		3720BD55133421C00060F4D8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				37BF3BA313350A140066DCFD /* UsrSelViewController.xib */,
 				3720BD58133422A90060F4D8 /* WelcomeViewController.xib */,
 				378D6BBB1334205900845FCE /* MainWindow.xib */,
 			);
@@ -262,6 +270,7 @@
 				3720BD681334586B0060F4D8 /* WelcomeScreen.gif in Resources */,
 				3720BD6A13345C620060F4D8 /* WelcomeScreen2.gif in Resources */,
 				37BF3B98133500560066DCFD /* AppIcon.png in Resources */,
+				37BF3BA513350A140066DCFD /* UsrSelViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +322,7 @@
 				378D6BB71334205800845FCE /* main.m in Sources */,
 				378D6BBA1334205800845FCE /* CrC_Cardio_TrackerAppDelegate.m in Sources */,
 				3720BD59133422A90060F4D8 /* WelcomeViewController.m in Sources */,
+				37BF3BA413350A140066DCFD /* UsrSelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

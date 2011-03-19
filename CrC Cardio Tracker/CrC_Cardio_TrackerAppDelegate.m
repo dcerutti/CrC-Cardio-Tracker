@@ -14,11 +14,28 @@
 
 @synthesize window=_window,welcomeView;
 
+
+/*
+ 
+ Method to switch Current View
+ 
+ */
+-(void)switchView:(UIView *)view1 toView:(UIView *)view2{
+    
+    [UIView beginAnimations:@"Animations" context:nil];
+    [UIView setAnimationDuration:0.75];
+    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self.window cache:YES];
+    [view1 removeFromSuperview];
+    [_window addSubview:view2];
+    [UIView commitAnimations];
+    
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
-    
+        
     //WelcomeView Link
     WelcomeViewController *aView = [[WelcomeViewController alloc] initWithNibName:@"WelcomeViewController" bundle:nil];
     self.welcomeView = aView;
@@ -42,6 +59,8 @@
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
      */
+    
+    
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -49,6 +68,7 @@
     /*
      Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
      */
+    
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application

@@ -19,4 +19,8 @@
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) WelcomeViewController *welcomeView;
 
+
+-(void)switchView:(UIView *)view1 toView:(UIView *)view2;
+
+
 @end

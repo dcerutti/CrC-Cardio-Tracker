@@ -15,5 +15,6 @@
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
+-(IBAction)swapView:(id)sender;
 
 @end

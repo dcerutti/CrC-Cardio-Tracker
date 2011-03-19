@@ -7,6 +7,8 @@
 //
 
 #import "WelcomeViewController.h"
+#import "CrC_Cardio_TrackerAppDelegate.h"
+#import "UsrSelViewController.h"
 
 
 @implementation WelcomeViewController
@@ -17,9 +19,19 @@
  */
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     
-   
+    [self swapView:nil];
     
 }
+
+-(IBAction)swapView:(id)sender{
+    
+    CrC_Cardio_TrackerAppDelegate *delegate = (CrC_Cardio_TrackerAppDelegate *)[[UIApplication sharedApplication] delegate];
+    UsrSelViewController *usrSelView = [[UsrSelViewController alloc] initWithNibName:@"UsrSelViewController" bundle:nil];
+    
+    [delegate switchView:self.view toView:usrSelView.view];
+    
+}
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
