@@ -24,6 +24,7 @@
 		378D6BCE1334205900845FCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 378D6BCC1334205900845FCE /* InfoPlist.strings */; };
 		378D6BD11334205900845FCE /* CrC_Cardio_TrackerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 378D6BD01334205900845FCE /* CrC_Cardio_TrackerTests.h */; };
 		378D6BD31334205900845FCE /* CrC_Cardio_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 378D6BD21334205900845FCE /* CrC_Cardio_TrackerTests.m */; };
+		37BF3B98133500560066DCFD /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BF3B97133500560066DCFD /* AppIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		378D6BCF1334205900845FCE /* CrC Cardio TrackerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrC Cardio TrackerTests-Prefix.pch"; sourceTree = "<group>"; };
 		378D6BD01334205900845FCE /* CrC_Cardio_TrackerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrC_Cardio_TrackerTests.h; sourceTree = "<group>"; };
 		378D6BD21334205900845FCE /* CrC_Cardio_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrC_Cardio_TrackerTests.m; sourceTree = "<group>"; };
+		37BF3B97133500560066DCFD /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		378D6B9A1334205800845FCE = {
 			isa = PBXGroup;
 			children = (
+				37BF3B97133500560066DCFD /* AppIcon.png */,
 				378D6BAF1334205800845FCE /* CrC Cardio Tracker */,
 				378D6BC91334205900845FCE /* CrC Cardio TrackerTests */,
 				378D6BA81334205800845FCE /* Frameworks */,
@@ -258,6 +261,7 @@
 				3720BD5A133422A90060F4D8 /* WelcomeViewController.xib in Resources */,
 				3720BD681334586B0060F4D8 /* WelcomeScreen.gif in Resources */,
 				3720BD6A13345C620060F4D8 /* WelcomeScreen2.gif in Resources */,
+				37BF3B98133500560066DCFD /* AppIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
