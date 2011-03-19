@@ -25,6 +25,18 @@
     [_window addSubview:welcomeView.view];
     [aView release];
     
+    //Screen Animation
+    UIImageView *animationView = [[UIImageView alloc] initWithFrame:welcomeView.view.frame];
+    animationView.animationImages = [NSArray arrayWithObjects:    
+                                     [UIImage imageNamed:@"WelcomeScreen.gif"], 
+                                     [UIImage imageNamed:@"WelcomeScreen2.gif"], nil];
+    
+    animationView.animationDuration = 1.25;
+    animationView.animationRepeatCount = 0;
+    [animationView startAnimating];
+    [welcomeView.view addSubview:animationView];
+    [animationView release]; 
+    
     return YES;
 }
 
