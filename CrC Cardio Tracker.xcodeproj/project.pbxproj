@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3720BD59133422A90060F4D8 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3720BD57133422A90060F4D8 /* WelcomeViewController.m */; };
 		3720BD5A133422A90060F4D8 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3720BD58133422A90060F4D8 /* WelcomeViewController.xib */; };
+		3720BD681334586B0060F4D8 /* WelcomeScreen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3720BD671334586B0060F4D8 /* WelcomeScreen.gif */; };
+		3720BD6A13345C620060F4D8 /* WelcomeScreen2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3720BD6913345C620060F4D8 /* WelcomeScreen2.gif */; };
 		378D6BAA1334205800845FCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BA91334205800845FCE /* UIKit.framework */; };
 		378D6BAC1334205800845FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BAB1334205800845FCE /* Foundation.framework */; };
 		378D6BAE1334205800845FCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378D6BAD1334205800845FCE /* CoreGraphics.framework */; };
@@ -38,6 +40,8 @@
 		3720BD56133422A90060F4D8 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		3720BD57133422A90060F4D8 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		3720BD58133422A90060F4D8 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		3720BD671334586B0060F4D8 /* WelcomeScreen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WelcomeScreen.gif; sourceTree = "<group>"; };
+		3720BD6913345C620060F4D8 /* WelcomeScreen2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WelcomeScreen2.gif; sourceTree = "<group>"; };
 		378D6BA51334205800845FCE /* CrC Cardio Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrC Cardio Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		378D6BA91334205800845FCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		378D6BAB1334205800845FCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +88,8 @@
 		3720BD52133421860060F4D8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3720BD6913345C620060F4D8 /* WelcomeScreen2.gif */,
+				3720BD671334586B0060F4D8 /* WelcomeScreen.gif */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -249,6 +255,8 @@
 				378D6BB41334205800845FCE /* InfoPlist.strings in Resources */,
 				378D6BBD1334205900845FCE /* MainWindow.xib in Resources */,
 				3720BD5A133422A90060F4D8 /* WelcomeViewController.xib in Resources */,
+				3720BD681334586B0060F4D8 /* WelcomeScreen.gif in Resources */,
+				3720BD6A13345C620060F4D8 /* WelcomeScreen2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
