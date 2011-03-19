@@ -11,6 +11,16 @@
 
 @implementation WelcomeViewController
 
+/*
+ touchesBegan Touch Event Handler for  the entire WelcomeView
+ 
+ */
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    
+   
+    
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

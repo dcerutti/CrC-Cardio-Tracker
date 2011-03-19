@@ -11,6 +11,9 @@
 
 @interface WelcomeViewController : UIViewController {
     
+    
 }
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 
 @end
