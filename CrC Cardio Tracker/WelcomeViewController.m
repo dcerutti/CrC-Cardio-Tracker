@@ -49,6 +49,21 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    //Screen Animation
+    UIImageView *animationView = [[UIImageView alloc] initWithFrame:self.view.frame];
+    animationView.animationImages = [NSArray arrayWithObjects:    
+                                     [UIImage imageNamed:@"WelcomeScreen.gif"], 
+                                     [UIImage imageNamed:@"WelcomeScreen2.gif"], nil];
+    
+    animationView.animationDuration = 1.25;
+    animationView.animationRepeatCount = 0;
+    [animationView sizeToFit];
+    [animationView startAnimating];
+    [self.view addSubview:animationView];
+    [animationView release]; 
+    
+    
 }
 
 - (void)viewDidUnload
